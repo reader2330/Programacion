@@ -16,7 +16,10 @@ public class Fecha{
 			x=Integer.parseInt(br.readLine());
 	       }catch(IOException ex){
 			System.out.println("Tu fecha no puede ser ingresada");
+			}catch(NumberFormatException e){
+				System.out.println("Tu numero no se puede ingresar");
 			}
+
 	        return x;
 	}
 
@@ -51,18 +54,14 @@ public class Fecha{
 	}
 
 
-	public void asignarFecha(){
-		int dia=1;
-		int mes=1;
-		int anio=158;
-		System.out.println("Escriba un numero dia");
-		dia=leerenteros();
-		System.out.println("Escribe un numero de mes");
-		mes=leerenteros();
-		System.out.println("Escribe un anio");
-		anio=leerenteros();
+	public void asignarFecha(int dia_parametro,int mes_parametro ,int anio_parametro){
+		
+		this.dia=dia_parametro;
+		this.mes=mes_parametro;
+		this.anio=anio_parametro;
 
-		fechaCorrecta(dia,mes,anio);
+		System.out.println("Fecha:  "+this.dia+" / "+this.mes+" / "+this.anio);
+		
 
 
 	}
