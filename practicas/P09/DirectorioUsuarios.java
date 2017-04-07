@@ -4,6 +4,7 @@ public class DirectorioUsuarios{
 	public String contrasena;
 
 	public DirectorioUsuarios(){
+		DirectorioUsuarios listadeusuarios[] = new DirectorioUsuarios[2];
 
 	}
 
@@ -18,7 +19,7 @@ public class DirectorioUsuarios{
 		int i=0;
 		boolean a=false;
 		try{
-		for(i=0;i<lista.length<;i++){
+		for(i=0;i<lista.length;i++){
 			if(nickname.equals(lista[i].nickname) && contrasena.equals(lista[i].contrasena)){
 				a=true;
 			}else
