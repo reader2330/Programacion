@@ -14,12 +14,12 @@ public class DirectorioUsuariosTest{
 		listadeusuarios[0]=new DirectorioUsuarios("admi","contrasena");
 
 		do{
-		System.out.println("Bienvenido  \n 1.-Registro a un usuario \n 2.-Inicio de Sesion\n 3.-Salir\n");
-		System.out.println("Elige un numero");
-		opcion=obj1.leernumero();
+			System.out.println("Bienvenido  \n 1.-Registro a un usuario \n 2.-Inicio de Sesion\n 3.-Salir\n");
+			System.out.println("Elige un numero");
+			opcion=obj1.leernumero();
 
 
-		
+			
 			switch(opcion){
 
 
@@ -58,8 +58,8 @@ public class DirectorioUsuariosTest{
 
 				case 3:
 
-					System.out.println("Adios");
-					break;
+				System.out.println("Adios");
+				break;
 
 
 				default:
@@ -71,5 +71,5 @@ public class DirectorioUsuariosTest{
 
 
 
-		}
 	}
+}
