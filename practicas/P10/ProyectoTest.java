@@ -36,7 +36,7 @@ public class ProyectoTest{
   
 
   	while(aux!=3){
-  	System.out.println("Bienvenido al Cubo");
+  	System.out.println("\nBienvenido al Cubo");
   	
   	cliente0.mostrarMenu();
   	aux=lector0.LeerNum();
@@ -68,8 +68,7 @@ public class ProyectoTest{
   	}
 
 
-  //	horacomida.MostrarMenus();
-  	
+  
 
   	
   }
